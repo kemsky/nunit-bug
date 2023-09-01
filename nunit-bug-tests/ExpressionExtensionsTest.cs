@@ -1,5 +1,5 @@
 using System.Linq.Expressions;
-using common.Expressions;
+using common;
 using NUnit.Framework;
 
 namespace nunit_bug_tests;

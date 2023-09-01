@@ -1,7 +1,7 @@
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace common.Expressions;
+namespace common;
 
 public static class ExpressionExtensions
 {
