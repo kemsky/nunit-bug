@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <OutputType>Library</OutputType>
+        <OutputType>Exe</OutputType>
         <TargetFramework>net7.0</TargetFramework>
         <RootNamespace>nunit_bug_tests</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
@@ -16,7 +16,6 @@
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\common\common.csproj" />
-      <ProjectReference Include="..\nunit-bug\nunit-bug.csproj" />
     </ItemGroup>
     <Target Name="RunTests">
         <Exec IgnoreExitCode="True" Command="$(PkgNUnit_ConsoleRunner)/tools/nunit3-console.exe $(ProjectDir)$(OutputPath)\$(AssemblyName).dll">

@@ -1,12 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <OutputType>Library</OutputType>
+        <OutputType>Exe</OutputType>
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>disable</Nullable>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="Optional" Version="4.0.0" />
+        <PackageReference Include="EntityFramework" Version="6.4.4" />
+        <PackageReference Include="ErikEJ.EntityFramework.SqlServer" Version="6.6.6" />
     </ItemGroup>
 </Project>
