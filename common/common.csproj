@@ -8,38 +8,5 @@
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Optional" Version="4.0.0" />
-        <PackageReference Include="LightInject" Version="6.6.4" />
-        <PackageReference Include="LightInject.Annotation" Version="1.1.0" />
-        <PackageReference Include="LightInject.Interception" Version="2.0.4" />
-        <PackageReference Include="AutoMapper" Version="12.0.0" />
-        <PackageReference Include="ColorHelper" Version="1.8.1" />
-        <PackageReference Include="CreditCardValidator" Version="3.0.1" />
-        <PackageReference Include="DelegateDecompiler" Version="0.32.0" />
-        <PackageReference Include="EmailValidation" Version="1.0.9" />
-        <PackageReference Include="EntityFramework" Version="6.4.4" />
-        <PackageReference Include="EPPlus" Version="4.5.3.3" />
-        <PackageReference Include="Flurl" Version="3.0.7" />
-        <PackageReference Include="Flurl.Http" Version="3.2.4" />
-        <PackageReference Include="HtmlAgilityPack" Version="1.11.51" />
-        <PackageReference Include="itextsharp.netstandard" Version="5.5.13.2" />
-        <PackageReference Include="libphonenumber-csharp" Version="8.13.17" />
-        <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="7.0.0" />
-        <PackageReference Include="Perfolizer" Version="0.3.4" />
-        <PackageReference Include="Serilog.Expressions" Version="3.4.1" />
-        <PackageReference Include="Serilog.Extensions.Logging" Version="7.0.0" />
-        <PackageReference Include="Serilog.Formatting.Compact" Version="1.1.0" />
-        <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="7.0.2" />
-        <PackageReference Include="Microsoft.IO.RecyclableMemoryStream" Version="2.3.2" />
-        <PackageReference Include="MimeMapping" Version="2.0.0" />
-        <PackageReference Include="Quartz" Version="3.6.3" />
-        <PackageReference Include="Sentry" Version="3.34.0" />
-        <PackageReference Include="Serilog" Version="3.0.1" />
-        <PackageReference Include="Serilog.Sinks.Async" Version="1.5.0" />
-        <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
-        <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
-        <PackageReference Include="Serilog.Sinks.PeriodicBatching" Version="3.1.0" />
-        <PackageReference Include="System.IO.Compression" Version="4.3.0" />
-        <PackageReference Include="Telegram.Bot" Version="19.0.0" />
-        <PackageReference Include="ProjectionTools" Version="1.0.13" />
     </ItemGroup>
 </Project>
