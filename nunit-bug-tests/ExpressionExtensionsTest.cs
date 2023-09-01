@@ -8,12 +8,6 @@ namespace nunit_bug_tests;
 [TestFixture]
 public class ExpressionExtensionsTest
 {
-    private string String { get; } = "String";
-
-    private bool Bool { get; } = true;
-
-    private BindArgument Complex { get; } = new BindArgument();
-
     #region TryEvaluate
 
     [Test]
@@ -142,70 +136,6 @@ public class ExpressionExtensionsTest
 
     #endregion
 
-    #region Compose
-
-    [Test]
-    public void And__ok()
-    {
-        Expression<Func<string, bool>> expression1 = x => x == "expression1";
-        Expression<Func<string, bool>> expression2 = y => y == "expression2";
-
-        Expression<Func<string, bool>> result = expression1.And(expression2);
-
-        Assert.That(result.ToString(), Is.EqualTo("x => ((x == \"expression1\") AndAlso (x == \"expression2\"))"));
-    }
-
-    [Test]
-    public void Or__ok()
-    {
-        Expression<Func<string, bool>> expression1 = x => x == "expression1";
-        Expression<Func<string, bool>> expression2 = y => y == "expression2";
-
-        Expression<Func<string, bool>> result = expression1.Or(expression2);
-
-        Assert.That(result.ToString(), Is.EqualTo("x => ((x == \"expression1\") OrElse (x == \"expression2\"))"));
-    }
-
-    #endregion
-
-    [Test]
-    public void Not__ok()
-    {
-        Expression<Func<string, bool>> expression = x => x == "expression";
-
-        Expression<Func<string, bool>> result = expression.Not();
-
-        Assert.That(result.ToString(), Is.EqualTo("x => Not((x == \"expression\"))"));
-    }
-
-    [Test]
-    public void ApplyTo__ok()
-    {
-        Expression<Func<string, bool>> expression = x => x == "1";
-        Expression<Func<long, string>> source = y => y.ToString();
-
-        Expression<Func<long, bool>> result = expression.ApplyTo(source);
-
-        Assert.That(result.ToString(), Is.EqualTo("y => (y.ToString() == \"1\")"));
-    }
-
-    [Test]
-    public void To__ok()
-    {
-        Expression<Func<long, string>> expression = x => x.ToString();
-        Expression<Func<string, bool>> projection = y => y == "1";
-
-        Expression<Func<long, bool>> result = expression.ProjectTo(projection);
-
-        Assert.That(result.ToString(), Is.EqualTo("x => (x.ToString() == \"1\")"));
-    }
-
-
-    private class BindArgument
-    {
-        // ReSharper disable once InconsistentNaming
-        public string x = "x";
-    }
 
     private class TryEvaluate
     {
