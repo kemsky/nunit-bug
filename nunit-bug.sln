@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nunit-bug", "nunit-bug\nunit-bug.csproj", "{B8E8C6D2-1F30-41A1-AA07-DEB71DB0A740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nunit-bug-tests", "nunit-bug-tests\nunit-bug-tests.csproj", "{A2C59122-0D7D-407A-AD0D-A6CC632F260A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "common", "common\common.csproj", "{21D83A8F-00EA-4814-ACEF-52E1A35B073E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8E8C6D2-1F30-41A1-AA07-DEB71DB0A740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E8C6D2-1F30-41A1-AA07-DEB71DB0A740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E8C6D2-1F30-41A1-AA07-DEB71DB0A740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E8C6D2-1F30-41A1-AA07-DEB71DB0A740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C59122-0D7D-407A-AD0D-A6CC632F260A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C59122-0D7D-407A-AD0D-A6CC632F260A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C59122-0D7D-407A-AD0D-A6CC632F260A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C59122-0D7D-407A-AD0D-A6CC632F260A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D83A8F-00EA-4814-ACEF-52E1A35B073E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D83A8F-00EA-4814-ACEF-52E1A35B073E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D83A8F-00EA-4814-ACEF-52E1A35B073E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D83A8F-00EA-4814-ACEF-52E1A35B073E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
